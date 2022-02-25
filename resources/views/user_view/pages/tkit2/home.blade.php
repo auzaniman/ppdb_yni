@@ -62,14 +62,14 @@ TKIT2 Nurul 'Ilmi Tenggarong
         <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4 mb-5 mb-lg-0">
           <div class="rotating-card-container">
             <div class="card card-rotate card-background card-background-mask-success shadow-success mt-md-0 mt-5">
-              <div class="front front-background" style="background-image: url(frontend/assets/img/TKIT2/3.jpeg); background-size: cover;">
+              <div class="front front-background" style="background-image: url(frontend/assets/img/TKIT2/3.jpg); background-size: cover;">
                 <div class="card-body py-7 text-center">
                   <i class="material-icons text-white text-4xl my-3">touch_app</i>
                   <h3 class="text-white">Jelajahi <br /> TKIT2 Nurul 'Ilmi</h3>
                   <p class="text-white opacity-8">Mengenal program dan bidang TKIT2 dalam pengembangan didunia pendidikan.</p>
                 </div>
               </div>
-              <div class="back back-background" style="background-image: url(frontend/assets/img/TKIT2/2.jpeg); background-size: cover;">
+              <div class="back back-background" style="background-image: url(frontend/assets/img/TKIT2/2.jpg); background-size: cover;">
                 <div class="card-body pt-7 text-center">
                   <h3 class="text-white">Jelajahi TKIT2</h3>
                   <p class="text-white opacity-8">Mengenal program dan bidang TKIT2 dalam pengembangan didunia pendidikan.</p>
@@ -672,7 +672,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
             <div class="col-md-6 mt-md-0 mt-5">
               <a href="">
                 <div class="card move-on-hover">
-                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/2.jpeg')}}" alt="contacus">
+                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/2.jpg')}}" alt="contacus">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">-</h6>
@@ -682,7 +682,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
             <div class="col-md-6 mt-md-3 mt-6">
               <a href="">
                 <div class="card move-on-hover">
-                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/3.jpeg')}}" alt="signin">
+                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/3.jpg')}}" alt="signin">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">-</h6>
@@ -692,7 +692,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
             <div class="col-md-6 mt-md-3 mt-6">
               <a href="">
                 <div class="card move-on-hover">
-                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/4.jpeg')}}" alt="author">
+                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/4.jpg')}}" alt="author">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">-</h6>
