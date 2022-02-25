@@ -923,7 +923,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
         </div>
         <div class="col-md-5 col-12 my-auto">
           <a href="https://www.creative-tim.com/product/material-kit-pro?ref=index-mk2">
-            <img class="w-100 border-radius-lg shadow-lg" src="{{ url('frontend/assets/img/TKIT2/1.jpeg')}}" alt="Product Image">
+            <img class="w-100 border-radius-lg shadow-lg" src="{{ url('frontend/assets/img/TKIT2/2.jpg')}}" alt="Product Image">
           </a>
         </div>
       </div>
