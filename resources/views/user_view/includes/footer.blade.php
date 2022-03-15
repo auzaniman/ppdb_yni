@@ -4,9 +4,9 @@
       <div class="col-md-3 mb-4 ms-auto">
         <div>
           <a href="">
-            <img src="{{ url('frontend/assets/img/TKIT2/logo.png')}}" class="mb-3 footer-logo" alt="main_logo">
+            <img src="{{ url('frontend/assets/img/PPDB/logo.png')}}" class="mb-3 footer-logo" alt="main_logo">
           </a>
-          <h6 class="font-weight-bolder mb-4">TKIT2 Nurul 'Ilmi</h6>
+          <h6 class="font-weight-bolder mb-4">PPDB Nurul 'Ilmi</h6>
         </div>
         <div>
           <ul class="d-flex flex-row ms-n3 nav">
@@ -134,7 +134,7 @@
       <div class="col-12">
         <div class="text-center">
           <p class="text-dark my-4 text-sm font-weight-normal">
-            All rights reserved. Copyright © <script>document.write(new Date().getFullYear())</script> TKIT2 Nurul 'Ilmi Tenggarong by <a href="https://www.ynikoetaikartanagara.com" target="_blank">IT YNI Team</a>.
+            All rights reserved. Copyright © <script>document.write(new Date().getFullYear())</script> PPDB Nurul 'Ilmi Tenggarong by <a href="https://www.ynikoetaikartanagara.com" target="_blank">IT YNI Team</a>.
           </p>
         </div>
       </div>

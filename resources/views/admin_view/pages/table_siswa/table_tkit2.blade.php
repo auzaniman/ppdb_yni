@@ -110,7 +110,7 @@ Table Data TKIT 2
           </thead>
           <tbody>
 
-            @forelse ($tkit2 as $tk)
+            @forelse ($ppdb as $tk)
             <tr>
               <td>{{ $tk->nama_akta }}</td>
               <td>{{ $tk->nama_panggil }}</td>

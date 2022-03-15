@@ -1,12 +1,26 @@
-<header class="header-2">
-  <div class="page-header min-vh-100 relative" style="background-image: url('frontend/assets/img/TKIT2/2.jpg')">
-    <span class="mask bg-gradient-dark opacity-9"></span>
+<header class="bg-gradient-dark">
+  <div class="page-header min-vh-100" style="background-image: url('../assets/img/bg9.jpg');">
+    <span class="mask bg-gradient-dark opacity-6"></span>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-7 text-center mx-auto">
-          <h1 class="text-white pt-3 mt-n5">Selamat Datang</h1>
-          <h3 class="text-white">Web Resmi TKIT2 Nurul 'Ilmi Tenggarong</h3>
-          <p class="lead text-white mt-3">"Terwujudnya sekolah Islam Terpadu yang mencetak generasi unggul, bersih, sehat dan berkarakter berdasarkan IMTAQ dan IPTEK."</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mx-auto my-auto">
+          <h1 class="text-white">Pendaftaran Peserta Didik Baru Online</h1>
+          <p class="lead mb-4 text-white opacity-8">Sekolah Nurul 'Ilmi Koetai Kartanagara</p>
+          <button type="submit" class="btn bg-success text-white">KBIT</button>
+          <button type="submit" class="btn bg-success text-white">TKIT 1</button>
+          <button type="submit" class="btn bg-success text-white">TKIT 2</button>
+          <button type="submit" class="btn bg-success text-white">SDIT</button>
+          <button type="submit" class="btn bg-success text-white">SMPIT</button>
+          <button type="submit" class="btn bg-success text-white">SMAIT</button>
+          <div class="sosmed">
+            <h6 class="text-white mb-2 mt-5">Sosial Media Kami</h6>
+            <div class="d-flex justify-content-center">
+              <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
+              <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
+              <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
+              <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

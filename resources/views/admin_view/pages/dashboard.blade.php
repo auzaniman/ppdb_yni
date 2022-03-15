@@ -118,7 +118,7 @@ Dashboard
                   mb-1
                 "
               >
-                TKIT2
+                PPDB
               </div>
               <div class="h5 mb-0 font-weight-bold text-gray-800">
                 0

@@ -17,3 +17,10 @@
 
 {{-- my CSS --}}
 {{-- <link rel="stylesheet" href="{{ url('frontend/assets/scss/style.css')}}"> --}}
+
+<style>
+  .sosmed {
+    position: relative;
+    top: 7rem;
+  }
+</style>

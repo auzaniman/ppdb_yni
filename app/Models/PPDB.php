@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class TKIT2 extends Model
+class PPDB extends Model
 {
     use HasFactory;
 
-    protected $table = 'tkit2';
+    protected $table = 'ppdb';
 
     protected $fillable = [
     'school_id',

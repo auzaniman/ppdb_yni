@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\TKIT2;
-use App\Http\Requests\StoreTKIT2Request;
+use App\Models\PPDB;
+use App\Http\Requests\StorePPDBRequest;
 
-class TKIT2Controller extends Controller
+class PPDBController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,10 +25,10 @@ class TKIT2Controller extends Controller
      */
     public function create()
     {
-      $tkit2 = TKIT2::all();
+      $ppdb = PPDB::all();
 
       return view('user_view.pages.ppdb.form.form_tkit1', [
-        'tkit2' => $tkit2,
+        'ppdb' => $ppdb,
         ]);
     }
 
@@ -38,10 +38,10 @@ class TKIT2Controller extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreTKIT2Request $request)
+    public function store(StorePPDBRequest $request)
     {
-      $tkit2 = $request->all();
-      TKIT2::create($tkit2);
+      $ppdb = $request->all();
+      PPDB::create($ppdb);
 
       return redirect()->route('success');
     }

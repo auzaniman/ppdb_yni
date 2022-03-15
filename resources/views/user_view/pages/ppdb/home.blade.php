@@ -1,11 +1,11 @@
 @extends('user_view.layouts.app')
 
 @section('title')
-TKIT2 Nurul 'Ilmi Tenggarong
+PPDB Nurul 'Ilmi Tenggarong
 @endsection
 
 @section('content')
-<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-6">
 
   {{-- Counter --}}
   <section class="pt-3 pb-4" id="count-stats">
@@ -47,7 +47,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
     <div class="row">
       <div class="row justify-content-center text-center my-sm-5">
         <div class="col-lg-6">
-          <span class="badge bg-danger mb-3">Visi TKIT2</span>
+          <span class="badge bg-danger mb-3">Visi PPDB</span>
           <h2 class="text-dark mb-0">Visi Sekolah Kami</h2>
           <p class="lead">"Terwujudnya sekolah Islam Terpadu yang mencetak generasi unggul, bersih, sehat dan berkarakter berdasarkan IMTAQ dan IPTEK." </p>
         </div>
@@ -62,17 +62,17 @@ TKIT2 Nurul 'Ilmi Tenggarong
         <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4 mb-5 mb-lg-0">
           <div class="rotating-card-container">
             <div class="card card-rotate card-background card-background-mask-success shadow-success mt-md-0 mt-5">
-              <div class="front front-background" style="background-image: url(frontend/assets/img/TKIT2/3.jpg); background-size: cover;">
+              <div class="front front-background" style="background-image: url(frontend/assets/img/PPDB/3.jpg); background-size: cover;">
                 <div class="card-body py-7 text-center">
                   <i class="material-icons text-white text-4xl my-3">touch_app</i>
-                  <h3 class="text-white">Jelajahi <br /> TKIT2 Nurul 'Ilmi</h3>
-                  <p class="text-white opacity-8">Mengenal program dan bidang TKIT2 dalam pengembangan didunia pendidikan.</p>
+                  <h3 class="text-white">Jelajahi <br /> PPDB Nurul 'Ilmi</h3>
+                  <p class="text-white opacity-8">Mengenal program dan bidang PPDB dalam pengembangan didunia pendidikan.</p>
                 </div>
               </div>
-              <div class="back back-background" style="background-image: url(frontend/assets/img/TKIT2/2.jpg); background-size: cover;">
+              <div class="back back-background" style="background-image: url(frontend/assets/img/PPDB/2.jpg); background-size: cover;">
                 <div class="card-body pt-7 text-center">
-                  <h3 class="text-white">Jelajahi TKIT2</h3>
-                  <p class="text-white opacity-8">Mengenal program dan bidang TKIT2 dalam pengembangan didunia pendidikan.</p>
+                  <h3 class="text-white">Jelajahi PPDB</h3>
+                  <p class="text-white opacity-8">Mengenal program dan bidang PPDB dalam pengembangan didunia pendidikan.</p>
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
       <div class="row">
         <div class="col-lg-3">
           <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-            <h3>Jelajahi TKIT2 Nurul 'Ilmi</h3>
+            <h3>Jelajahi PPDB Nurul 'Ilmi</h3>
             <h6 class="text-secondary font-weight-normal pe-3">Mari kenali sekolah kami dengan berbagai fasilitas, program dan prestasi.</h6>
           </div>
         </div>
@@ -148,7 +148,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
                         <div class="row">
                           <div class="col-lg-6 my-auto">
                             <h3 class="mt-5 mt-lg-0">Prestasi-Prestasi Kami</h3>
-                            <p class="pe-5">Segudang prestasi sekolah TKIT2 Nurul Ilmi Tenggarong.</p>
+                            <p class="pe-5">Segudang prestasi sekolah PPDB Nurul Ilmi Tenggarong.</p>
                           </div>
 
                           {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
@@ -309,7 +309,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
                         <div class="row">
                           <div class="col-lg-6 my-auto">
                             <h3 class="mt-5 mt-lg-0">Fasilitas Sekolah Kami</h3>
-                            <p class="pe-5">Berikut adalah fasilitas TKIT2 Nurul Ilmi Tenggarong.</p>
+                            <p class="pe-5">Berikut adalah fasilitas PPDB Nurul Ilmi Tenggarong.</p>
                           </div>
 
                           {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
@@ -438,7 +438,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
                         <div class="row">
                           <div class="col-lg-6 my-auto">
                             <h3 class="mt-5 mt-lg-0">Kegiatan Sekolah Unggulan</h3>
-                            <p class="pe-5">Berikut adalah program unggulan TKIT2 Nurul Ilmi Tenggarong.</p>
+                            <p class="pe-5">Berikut adalah program unggulan PPDB Nurul Ilmi Tenggarong.</p>
                           </div>
 
                           {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
@@ -543,7 +543,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
                         <div class="row">
                           <div class="col-lg-6 my-auto">
                             <h3 class="mt-5 mt-lg-0">Kegiatan Ekstrakurikuler</h3>
-                            <p class="pe-5">Berikut adalah kegiatan Ekstra pengembangan potensi siswa TKIT2 Nurul Ilmi Tenggarong.</p>
+                            <p class="pe-5">Berikut adalah kegiatan Ekstra pengembangan potensi siswa PPDB Nurul Ilmi Tenggarong.</p>
                           </div>
 
                           {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
@@ -662,7 +662,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
             <div class="col-md-6">
               <a href="">
                 <div class="card move-on-hover">
-                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/1.jpeg')}}" alt="aboutus">
+                  <img class="w-100" src="{{ url('frontend/assets/img/PPDB/1.jpeg')}}" alt="aboutus">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">-</h6>
@@ -672,7 +672,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
             <div class="col-md-6 mt-md-0 mt-5">
               <a href="">
                 <div class="card move-on-hover">
-                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/2.jpg')}}" alt="contacus">
+                  <img class="w-100" src="{{ url('frontend/assets/img/PPDB/2.jpg')}}" alt="contacus">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">-</h6>
@@ -682,7 +682,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
             <div class="col-md-6 mt-md-3 mt-6">
               <a href="">
                 <div class="card move-on-hover">
-                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/3.jpg')}}" alt="signin">
+                  <img class="w-100" src="{{ url('frontend/assets/img/PPDB/3.jpg')}}" alt="signin">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">-</h6>
@@ -692,7 +692,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
             <div class="col-md-6 mt-md-3 mt-6">
               <a href="">
                 <div class="card move-on-hover">
-                  <img class="w-100" src="{{ url('frontend/assets/img/TKIT2/4.jpg')}}" alt="author">
+                  <img class="w-100" src="{{ url('frontend/assets/img/PPDB/4.jpg')}}" alt="author">
                 </div>
                 <div class="mt-2 ms-2">
                   <h6 class="mb-0">-</h6>
@@ -703,8 +703,8 @@ TKIT2 Nurul 'Ilmi Tenggarong
         </div>
         <div class="col-md-3 mx-auto mt-md-0 mt-5">
           <div class="position-sticky" style="top:100px !important">
-            <h4 class="">Galeri TKIT2 Nurul 'Ilmi</h4>
-            <h6 class="text-secondary font-weight-normal">Bagian dari landscape kegiatan kami sekolah TKIT2 Nurul 'Ilmi</h6>
+            <h4 class="">Galeri PPDB Nurul 'Ilmi</h4>
+            <h6 class="text-secondary font-weight-normal">Bagian dari landscape kegiatan kami sekolah PPDB Nurul 'Ilmi</h6>
           </div>
         </div>
       </div>
@@ -715,7 +715,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
     <div class="container">
       <div class="row">
         <div class="col-md-8 text-start mb-5 mt-5">
-          <h3 class="text-white z-index-1 position-relative">Guru-guru TKIT2 Nurul 'Ilmi Tenggarong</h3>
+          <h3 class="text-white z-index-1 position-relative">Guru-guru PPDB Nurul 'Ilmi Tenggarong</h3>
           <p class="text-white opacity-8 mb-0">Pesan-pesan guru kami.</p>
         </div>
       </div>
@@ -811,7 +811,7 @@ TKIT2 Nurul 'Ilmi Tenggarong
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="mb-5">Informasi Berita TKIT2 Nurul 'Ilmi</h3>
+          <h3 class="mb-5">Informasi Berita PPDB Nurul 'Ilmi</h3>
         </div>
       </div>
       <div class="row">
@@ -900,10 +900,10 @@ TKIT2 Nurul 'Ilmi Tenggarong
       <div class="container py-7 postion-relative z-index-2 position-relative">
         <div class="row">
           <div class="col-md-7 mx-auto text-center">
-            <h3 class="text-white mb-0">TKIT2 Nurul 'Ilmi Tenggarong</h3>
-            <h3 class="text-white">Daftarkan segera putra putri anda disekolah TKIT2 Nurul 'Ilmi</h3>
+            <h3 class="text-white mb-0">PPDB Nurul 'Ilmi Tenggarong</h3>
+            <h3 class="text-white">Daftarkan segera putra putri anda disekolah PPDB Nurul 'Ilmi</h3>
             <p class="text-white mb-5">Berkomitmen mengimplementasikan sistem pendidikan Islam secara terpadu untuk melahirkan generasi muslim terbaik menuju terwujudnya kejayaan Islam.</p>
-            <a href="https://ynikoetaikartanagara.com/ppdb/smait_create" class="btn btn-info btn-lg mb-3 mb-sm-0">Pendaftaran Online TKIT2</a>
+            <a href="https://ynikoetaikartanagara.com/ppdb/smait_create" class="btn btn-info btn-lg mb-3 mb-sm-0">Pendaftaran Online PPDB</a>
           </div>
         </div>
       </div>
@@ -915,15 +915,15 @@ TKIT2 Nurul 'Ilmi Tenggarong
     <div class="container">
       <div class="row">
         <div class="col-md-7 col-12 my-auto">
-          <h3 class="text-gradient text-danger mb-0">TKIT2 Nurul 'Ilmi</h3>
+          <h3 class="text-gradient text-danger mb-0">PPDB Nurul 'Ilmi</h3>
           <h3>Tenggarong</h3>
           <p class="pe-md-5 mb-4">
-            TKIT2 Nurul ‘Ilmi Tenggarong merupakan SD berkonsep Islam Terpadu pertama berdiri di Kalimantan. TKIT2 Nurul ’Ilmi Tenggarong menyelenggarakan pendidikan sesuai dengan kurikulum nasional yang diperkaya dengan nilai-nilai Islam. Berkomitmen mengimplementasikan sistem pendidikan Islam secara terpadu untuk melahirkan generasi muslim terbaik menuju terwujudnya kejayaan Islam.
+            PPDB Nurul ‘Ilmi Tenggarong merupakan SD berkonsep Islam Terpadu pertama berdiri di Kalimantan. PPDB Nurul ’Ilmi Tenggarong menyelenggarakan pendidikan sesuai dengan kurikulum nasional yang diperkaya dengan nilai-nilai Islam. Berkomitmen mengimplementasikan sistem pendidikan Islam secara terpadu untuk melahirkan generasi muslim terbaik menuju terwujudnya kejayaan Islam.
           </p>
         </div>
         <div class="col-md-5 col-12 my-auto">
           <a href="https://www.creative-tim.com/product/material-kit-pro?ref=index-mk2">
-            <img class="w-100 border-radius-lg shadow-lg" src="{{ url('frontend/assets/img/TKIT2/2.jpg')}}" alt="Product Image">
+            <img class="w-100 border-radius-lg shadow-lg" src="{{ url('frontend/assets/img/PPDB/2.jpg')}}" alt="Product Image">
           </a>
         </div>
       </div>

@@ -1,7 +1,7 @@
 @extends('admin_view.layouts.app')
 
 @section('title')
-Table Data TKIT2
+Table Data PPDB
 @endsection
 
 @section('content')
@@ -21,7 +21,7 @@ Table Data TKIT2
 
   <!-- Page Heading -->
   <div class="row justify-content-between mx-0 mb-4">
-    <h1 class="h3 text-gray-800">Data Peserta PPDB TKIT2</h1>
+    <h1 class="h3 text-gray-800">Data Peserta PPDB PPDB</h1>
     <a id="downloadLink" class="btn btn-success text-decoration-none" onclick="exportF(this)">Export to excel</a>
   </div>
 
@@ -29,7 +29,7 @@ Table Data TKIT2
   <div class="card shadow mb-4">
     <div class="card-header py-3">
       <h6 class="m-0 font-weight-bold text-primary">
-        Pendaftaran TKIT2 Nurul 'Ilmi
+        Pendaftaran PPDB Nurul 'Ilmi
       </h6>
     </div>
     <div class="card-body">
@@ -113,7 +113,7 @@ Table Data TKIT2
           </thead>
           <tbody>
 
-            @forelse ($tkit2 as $sd)
+            @forelse ($ppdb as $sd)
             <tr>
               <td>{{ $sd->nama }}</td>
               <td>{{ $sd->nama_panggilan }}</td>

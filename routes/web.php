@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\TKIT2Controller;
+use App\Http\Controllers\PPDBController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -19,11 +19,11 @@ use Illuminate\Support\Facades\Auth;
 
 // Yayasan
 Route::get('/', function () {
-    return view('user_view.pages.tkit2.home');
+    return view('user_view.pages.ppdb.home');
   })->name('home');
 
 // PPDB Form
-Route::resource('ppdb_tkit2', TKIT2Controller::class);
+Route::resource('ppdb', PPDBController::class);
 
 // Admin
 // Route::prefix('admin')
