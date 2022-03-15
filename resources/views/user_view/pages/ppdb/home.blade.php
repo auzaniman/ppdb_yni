@@ -7,43 +7,68 @@ PPDB Nurul 'Ilmi Tenggarong
 @section('content')
 <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-6">
 
-  {{-- Counter --}}
-  <section class="pt-3 pb-4" id="count-stats">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 mx-auto py-3">
-          <div class="row">
-            <div class="col-md-4 position-relative">
-              <div class="p-3 text-center">
-                <h1 class="text-gradient text-danger"><span id="state1" countTo="0">0</span>+</h1>
-                <h5 class="mt-3">Total Siswa</h5>
-                <p class="text-sm font-weight-normal">Siswa-siswi aktif belajar disekolah kami</p>
+  {{-- Informasi Pendaftaran --}}
+  <section class="py-7">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="row justify-content-start">
+              <div class="col-md-6">
+                <div class="info">
+                  <i class="material-icons text-3xl text-gradient text-info mb-3">public</i>
+                  <h5>Fully integrated</h5>
+                  <p>We get insulted by others, lose trust for those We get back freezes</p>
+                </div>
               </div>
-              <hr class="vertical dark">
-            </div>
-            <div class="col-md-4 position-relative">
-              <div class="p-3 text-center">
-                <h1 class="text-gradient text-danger"> <span id="state2" countTo="0">0</span>+</h1>
-                <h5 class="mt-3">Fasilitas</h5>
-                <p class="text-sm font-weight-normal">Fasilitas yang nyaman dan representatif</p>
+              <div class="col-md-6">
+                <div class="info">
+                  <i class="material-icons text-3xl text-gradient text-info mb-3">payments</i>
+                  <h5>Payments functionality</h5>
+                  <p>We get insulted by others, lose trust for those We get back freezes</p>
+                </div>
               </div>
-              <hr class="vertical dark">
             </div>
-            <div class="col-md-4 position-relative">
-              <div class="p-3 text-center">
-                <h1 class="text-gradient text-danger"> <span id="state3" countTo="0">0</span>+</h1>
-                <h5 class="mt-3">Prestasi</h5>
-                <p class="text-sm font-weight-normal">Prestasi terbaik putra-putri kami</p>
+            <div class="row justify-content-start mt-4">
+              <div class="col-md-6">
+                <div class="info">
+                  <i class="material-icons text-3xl text-gradient text-info mb-3">apps</i>
+                  <h5>Prebuilt components</h5>
+                  <p>We get insulted by others, lose trust for those We get back freezes</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info">
+                  <i class="material-icons text-3xl text-gradient text-info mb-3">3p</i>
+                  <h5>Improved platform</h5>
+                  <p>We get insulted by others, lose trust for those We get back freezes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ms-auto mt-lg-0 mt-4">
+            <div class="card">
+              <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                <a class="d-block blur-shadow-image">
+                  <img src="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="img-colored-shadow" class="img-fluid border-radius-lg">
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <h5 class="font-weight-normal">
+                  <a href="javascript:;">Get insights on Search</a>
+                </h5>
+                <p class="mb-0">
+                  Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards.
+                </p>
+                <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">Find out more</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
   {{-- Visi --}}
-  <div class="container">
+  {{-- <div class="container">
     <div class="row">
       <div class="row justify-content-center text-center my-sm-5">
         <div class="col-lg-6">
@@ -53,10 +78,10 @@ PPDB Nurul 'Ilmi Tenggarong
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 
   <!-- Misi -->
-  <section class="py-5">
+  {{-- <section class="py-5">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4 mb-5 mb-lg-0">
@@ -110,551 +135,10 @@ PPDB Nurul 'Ilmi Tenggarong
         </div>
       </div>
     </div>
-  </section>
-
-  {{-- Jelajah --}}
-  <section class="py-2">
-    <div class="container mt-sm-5 mt-3">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-            <h3>Jelajahi PPDB Nurul 'Ilmi</h3>
-            <h6 class="text-secondary font-weight-normal pe-3">Mari kenali sekolah kami dengan berbagai fasilitas, program dan prestasi.</h6>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="row mt-3">
-            <!-- Prestasi -->
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-3 me-auto">
-                      <p class="lead fw-bold text-dark pt-1 mb-0">PRESTASI</p>
-                    </div>
-                    <div class="col-lg-3"></div>
-                  </div>
-                </div>
-                <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="preview-features-1">
-                    <iframe width="100%" height="600px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-                      <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-                      <!-- Material Icons -->
-                      <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-                      <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.0" rel="stylesheet" />
-                      <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-6 my-auto">
-                            <h3 class="mt-5 mt-lg-0">Prestasi-Prestasi Kami</h3>
-                            <p class="pe-5">Segudang prestasi sekolah PPDB Nurul Ilmi Tenggarong.</p>
-                          </div>
-
-                          {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>50 Guru Terbaik</strong> <br> Lomba Bahan Ajar Digital Dinas Pendidikan Prov. Kaltim 2021</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 2 Lomba Poster</strong> <br> Univ. Pajajaran Bandung Jawa Barat Tahun 2021</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 2 Speech Contest</strong> <br> HIMAPBI FKIP Univ. Kutai Kartanegara 2021</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Sekolah Adiwiyata</strong> <br> Prov. Kalimantan Timur Tahun 2021</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara Favorit</strong> <br> Lomba Poster Statistika ITK Tingkat Provinsi 2020</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 1 Lomba Poster</strong> <br> Dinas Perhubungan Kukar 2020</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 2 Lomba Melukis</strong> <br> HUT Bhayangkara Kukar 2019</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 3 Lomba Mading 3D</strong> <br> Islami Gema Muharam Kukar 2019</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 2 Lomba Tahfidz Putri</strong> <br> Gema Muharam Kukar 2019</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 3 Lomba Tahfidz Putri</strong> <br> Gema Muharam Kukar 2019</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 1 Lomba Fotografi</strong> <br> Germas Kukar 2018</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 1 Lari Putri</strong> <br> PORSSIQU Nasional 2017</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 1 MHQ Putra dan Putri</strong> <br> PORSSIQU Provinsi 2017</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class=""><strong>Juara 1 Lomba Lempar Lembing</strong> <br> Provinsi 2017</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-success shadow-success text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3 mb-5">
-                                <p class=""><strong>Juara 1 Lomba Menulis Cerpen</strong> <br> Provinsi Kaltim-Tara 2016</p>
-                              </div>
-                            </div>
-                          </div> --}}
-                        </div>
-                      </div>
-
-                      <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
-
-                      '>
-                    </iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {{-- Fasilitas --}}
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-3 me-auto">
-                      <p class="lead fw-bold text-dark pt-1 mb-0">FASILITAS</p>
-                    </div>
-                    <div class="col-lg-3"></div>
-                  </div>
-                </div>
-                <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="preview-features-1">
-                    <iframe width="100%" height="600px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-                      <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-                      <!-- Material Icons -->
-                      <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-                      <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.0" rel="stylesheet" />
-                      <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-6 my-auto">
-                            <h3 class="mt-5 mt-lg-0">Fasilitas Sekolah Kami</h3>
-                            <p class="pe-5">Berikut adalah fasilitas PPDB Nurul Ilmi Tenggarong.</p>
-                          </div>
-
-                          {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Ruang Kelas Representatif</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Masjid Besar</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Laboratorium Komputer dan IPA</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Lapangan Voly</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Asrama Putra dan Putri</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Perpustakaan</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Lapangan Futsal</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Lapangan Basket</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Mini Market</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">ATM 24 Jam</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-warning shadow-warning text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3 mb-5">
-                                <p class="fw-bold">Kantin Sehat</p>
-                              </div>
-                            </div>
-                          </div> --}}
-                        </div>
-                      </div>
-
-                      <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
-
-                      '>
-                    </iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {{-- Progran Unggulan --}}
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-3 me-auto">
-                      <p class="lead fw-bold text-dark pt-1 mb-0">PROGRAM</p>
-                    </div>
-                    <div class="col-lg-3"></div>
-                  </div>
-                </div>
-                <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="preview-features-1">
-                    <iframe width="100%" height="600px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-                      <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-                      <!-- Material Icons -->
-                      <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-                      <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.0" rel="stylesheet" />
-                      <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-6 my-auto">
-                            <h3 class="mt-5 mt-lg-0">Kegiatan Sekolah Unggulan</h3>
-                            <p class="pe-5">Berikut adalah program unggulan PPDB Nurul Ilmi Tenggarong.</p>
-                          </div>
-
-                          {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Kelas Tahfidz Al-Quran</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Muhadharah</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Bina Pribadi Islam</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Baca Quran Metode Qiroaty</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Supercamp Pramuka SIT</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Olimpiade Sains Nasional</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Leadership Training</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape bg-gradient-info shadow-info text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3 mb-5">
-                                <p class="fw-bold">Siswa Masuk Desa</p>
-                              </div>
-                            </div>
-                          </div> --}}
-                        </div>
-                      </div>
-
-                      <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
-
-                      '>
-                    </iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {{-- Ekstras --}}
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-3 me-auto">
-                      <p class="lead  fw-bold text-dark pt-1 mb-0">EKSTRA</p>
-                    </div>
-                    <div class="col-lg-3"></div>
-                  </div>
-                </div>
-                <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="preview-features-1">
-                    <iframe width="100%" height="600px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-                      <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-                      <!-- Material Icons -->
-                      <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-                      <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.0" rel="stylesheet" />
-                      <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-6 my-auto">
-                            <h3 class="mt-5 mt-lg-0">Kegiatan Ekstrakurikuler</h3>
-                            <p class="pe-5">Berikut adalah kegiatan Ekstra pengembangan potensi siswa PPDB Nurul Ilmi Tenggarong.</p>
-                          </div>
-
-                          {{-- <div class="col-lg-6 mt-lg-0 mt-2 ps-lg-0 ps-0">
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Pramuka SIT</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Forum Pena Remaja</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Arabic Club</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Desain Grafis</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">English Club</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Nasyid Akustik</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Bela Diri</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Tenis Meja</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Paskibraka</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3">
-                                <p class="fw-bold">Habsiy</p>
-                              </div>
-                            </div>
-                            <div class="p-3 info-horizontal">
-                              <div class="icon icon-shape  bg-gradient-danger shadow-danger text-center">
-                                <i class="fas fa-hourglass opacity-10"></i>
-                              </div>
-                              <div class="description ps-3 mb-5">
-                                <p class="fw-bold">Futsal</p>
-                              </div>
-                            </div>
-                          </div> --}}
-                        </div>
-                      </div>
-
-                      <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
-
-                      '>
-                    </iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </section> --}}
 
   <!-- Gallery -->
-  <section class="py-5">
+  {{-- <section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -708,7 +192,7 @@ PPDB Nurul 'Ilmi Tenggarong
           </div>
         </div>
       </div>
-  </section>
+  </section> --}}
 
   <!-- Prakata Guru -->
   <section class="pb-5 mt-5 position-relative bg-gradient-dark mx-n3">
@@ -806,95 +290,8 @@ PPDB Nurul 'Ilmi Tenggarong
     </div>
   </section>
 
-  <!-- Artikel -->
-  <section class="py-5 mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h3 class="mb-5">Informasi Berita PPDB Nurul 'Ilmi</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <div class="card card-plain">
-            <div class="card-header p-0 position-relative">
-              <a class="d-block blur-shadow-image">
-                <img src="{{ url('frontend/material_kit/assets/img/examples/testimonial-6-2.jpg')}}" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
-              </a>
-            </div>
-            <div class="card-body px-0">
-              <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">Kabar Berita 1</a>
-              </h5>
-              <p>
-                -
-              </p>
-              <a href="javascript:;" class="text-info text-sm icon-move-right">Read More
-                <i class="fas fa-arrow-right text-xs ms-1"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="card card-plain">
-            <div class="card-header p-0 position-relative">
-              <a class="d-block blur-shadow-image">
-                <img src="{{ url('frontend/material_kit/assets/img/examples/testimonial-6-2.jpg')}}" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
-              </a>
-            </div>
-            <div class="card-body px-0">
-              <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">Kabar Berita 2</a>
-              </h5>
-              <p>
-                -
-              </p>
-              <a href="javascript:;" class="text-info text-sm icon-move-right">Read More
-                <i class="fas fa-arrow-right text-xs ms-1"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="card card-plain">
-            <div class="card-header p-0 position-relative">
-              <a class="d-block blur-shadow-image">
-                <img src="{{ url('frontend/material_kit/assets/img/examples/blog-9-4.jpg')}}" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
-              </a>
-            </div>
-            <div class="card-body px-0">
-              <h5>
-                <a href="javascript:;" class="text-dark font-weight-bold">Kabar Berita 3</a>
-              </h5>
-              <p>
-                -
-              </p>
-              <a href="javascript:;" class="text-info text-sm icon-move-right">Read More
-                <i class="fas fa-arrow-right text-xs ms-1"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-12 col-12">
-          <div class="card card-blog card-background cursor-pointer">
-            <div class="full-background" style="background-image: url('frontend/material_kit/assets/img/examples/blog2.jpg')" loading="lazy"></div>
-            <div class="card-body">
-              <div class="content-left text-start my-auto py-4">
-                <h2 class="card-title text-white">Kabar Berita 4</h2>
-                <p class="card-description text-white">-.</p>
-                <a href="javascript:;" class="text-white text-sm icon-move-right">Read More
-                  <i class="fas fa-arrow-right text-xs ms-1"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- CTA -->
-  <section class="py-sm-4" id="download-soft-ui">
+  {{-- <section class="py-sm-4" id="download-soft-ui">
     <div class="bg-gradient-dark position-relative m-3 border-radius-xl overflow-hidden">
       <img src="{{ url('frontend/material_kit/assets/img/shapes/waves-white.svg')}}" alt="pattern-lines" class="position-absolute start-0 top-md-0 w-100 opacity-2">
       <div class="container py-7 postion-relative z-index-2 position-relative">
@@ -908,30 +305,10 @@ PPDB Nurul 'Ilmi Tenggarong
         </div>
       </div>
     </div>
-  </section>
-
-  {{-- Support Section --}}
-  <section class="my-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-12 my-auto">
-          <h3 class="text-gradient text-danger mb-0">PPDB Nurul 'Ilmi</h3>
-          <h3>Tenggarong</h3>
-          <p class="pe-md-5 mb-4">
-            PPDB Nurul ‘Ilmi Tenggarong merupakan SD berkonsep Islam Terpadu pertama berdiri di Kalimantan. PPDB Nurul ’Ilmi Tenggarong menyelenggarakan pendidikan sesuai dengan kurikulum nasional yang diperkaya dengan nilai-nilai Islam. Berkomitmen mengimplementasikan sistem pendidikan Islam secara terpadu untuk melahirkan generasi muslim terbaik menuju terwujudnya kejayaan Islam.
-          </p>
-        </div>
-        <div class="col-md-5 col-12 my-auto">
-          <a href="https://www.creative-tim.com/product/material-kit-pro?ref=index-mk2">
-            <img class="w-100 border-radius-lg shadow-lg" src="{{ url('frontend/assets/img/PPDB/2.jpg')}}" alt="Product Image">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  </section> --}}
 
   {{-- Kotak Saran --}}
-  <section class="py-lg-5">
+  {{-- <section class="py-lg-5">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -1024,30 +401,7 @@ PPDB Nurul 'Ilmi Tenggarong
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Sosmed Section -->
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 ms-auto">
-          <h4 class="mb-1">Jazaakumullah Khairan!</h4>
-          <p class="lead mb-0">Kami memberi pelayanan pendidikan terbaik</p>
-        </div>
-        <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
-          <a href="" class="btn btn-youtube mb-0 me-2" target="_blank">
-            <i class="fab fa-youtube me-1"></i> Watch
-          </a>
-          <a href="" class="btn btn-facebook mb-0 me-2" target="_blank">
-            <i class="fab fa-facebook-square me-1"></i> Share
-          </a>
-          <a href="" class="btn btn-instagram mb-0 me-2" target="_blank">
-            <i class="fab fa-instagram me-1"></i> Post it
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section> --}}
 </div>
 @endsection
 
