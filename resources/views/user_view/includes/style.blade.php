@@ -23,4 +23,24 @@
     position: relative;
     top: 7rem;
   }
+
+  .button-container {
+    padding-top: 1rem;
+  }
+
+  .button-container button {
+    font-size: 18px;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.60)
+  }
+
+  .button-container button:hover {
+    box-shadow: 0px 0px 8px rgba(255,255,255, 0.7);
+  }
+
+  /* @media (max-width: 767.98px) {
+    .button-container {
+      flex-direction: column;
+      display: flex
+    } 
+  } */
 </style>
