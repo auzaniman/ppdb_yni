@@ -7,7 +7,7 @@
           <h1 class="text-white">Pendaftaran Peserta Didik Baru Online</h1>
           <p class="lead mb-4 text-white opacity-8">Sekolah Nurul 'Ilmi Koetai Kartanagara</p>
           <div class="d-lg-flex button-container justify-content-around">
-            <button type="submit" class="btn bg-success text-white font-weight-bold">git KBIT</button>
+            <button type="submit" class="btn bg-success text-white font-weight-bold">KBIT</button>
             <button type="submit" class="btn bg-success text-white font-weight-bold">TKIT 1</button>
             <button type="submit" class="btn bg-success text-white font-weight-bold">TKIT 2</button>
             <button type="submit" class="btn bg-success text-white font-weight-bold">SDIT</button>
