@@ -27,7 +27,7 @@
   {{-- End Header --}}
 
   {{-- MAIN --}}
-  @yield('content')
+  {{-- @yield('content') --}}
   {{-- END MAIN --}}
 
   {{-- Footer --}}
